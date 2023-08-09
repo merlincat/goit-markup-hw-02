@@ -7,30 +7,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <title>Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>WebStudio</title>
   </head>
   <body>
     <!-- Хедер -->
-    <header>
+    <header class="header">
       <!-- Лого -->
       <!-- Навігація -->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#main-page">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+      <nav class="header-nav">
+        <a class="header-logo logo" href="./index.html">WebStudio</a>
+        <ul class="nav-list">
+          <li class="list-item">
+            <a class="list-item-link" href="#main-page">Studio</a>
+          </li>
+          <li class="list-item">
+            <a class="list-item-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="list-item">
+            <a class="list-item-link" href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!-- Контакти -->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-contacts">
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a class="list-item-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-list-item">
+            <a class="list-item-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -39,13 +58,13 @@
     <main>
       <!-- Секція 1 Мейн Пейдж -->
       <section id="main-page">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="main-page-title">Effective Solutions for Your Business</h1>
+        <button class="main-page-btn" type="button">Order Service</button>
       </section>
 
       <!-- Секція 2 - Про нашу роботу -->
-      <section id="portfolio">
-        <h2>Portfolio</h2>
+      <section id="strategy">
+        <h2 class="section-title">Strategy</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -121,6 +140,73 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Секція 4 - Портфоліо -->
+      <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/imgBankingApp.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/imgCashlessPayment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/imgMeditationApp.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/imgTaxiService.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/imgScreenIllustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/imgOnlineCourses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
