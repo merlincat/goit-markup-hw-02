@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -30,7 +36,7 @@ button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.111em;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -38,13 +44,13 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2em;
   letter-spacing: 0.4px;
 }
 .list-item-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.32px;
 }
 
@@ -55,7 +61,7 @@ button {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -70,7 +76,7 @@ button {
   color: #2e2f42;
   /* font-size: 16px; */
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.32px;
 }
 .list-item-link:hover,
@@ -83,7 +89,7 @@ button {
 .contacts-item-link {
   /* font-size: 16px; */
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.32px;
 }
 .contacts-item-link:hover,
@@ -101,7 +107,7 @@ button {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 107.143%;
+  line-height: 1.07143em;
   letter-spacing: 1.12px;
 }
 
@@ -109,7 +115,7 @@ button {
   color: #fff;
   /* font-size: 16px; */
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
 }
@@ -130,7 +136,6 @@ button {
 }
 /* Portfolio-секція */
 .portfolio-list-item {
-  border: 1px solid #e7e9fc;
   background: #fff;
 }
 
@@ -144,6 +149,6 @@ button {
 .footer-text {
   color: #f4f4fd;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.32px;
 }
